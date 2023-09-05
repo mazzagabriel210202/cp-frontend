@@ -1,0 +1,52 @@
+*{
+    margin: 100;
+    padding: 0;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    max-width: 800px;
+    margin:100 auto;
+}
+
+
+header {
+    height: 100px;
+    background: rgb(222, 221, 221);
+    border-bottom: 2px solid #ffffff;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid gray;
+  }
+
+img{
+display: inline-block;
+text-align: center;    
+}
+
+
+
+.sumario{
+    background: black;
+    display:flex;
+    justify-content: center;
+    
+}
+
+summary p{
+    background: antiquewhite;
+
+}
+
+.rodape{
+    background: black;
+    display: flex;
+    justify-content: center;
+}
+
+
+footer p{
+    color:antiquewhite;
+    padding: 10px;
+}
